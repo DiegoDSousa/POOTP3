@@ -1,6 +1,6 @@
 package BIU;
 
-public class titular extends BIU{
+public class Titular {
     private String nome;
     private String morada;
     private String e_mail;
