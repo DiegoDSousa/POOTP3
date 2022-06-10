@@ -1,4 +1,4 @@
-package BIU;
+package BIU.USUARIO;
 
 public class Titular {
     private String nome;
