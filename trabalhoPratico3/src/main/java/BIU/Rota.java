@@ -4,7 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Rota {
-    private List ilhas=new ArrayList<>();
-    public void addRota(){
+    private HashMap<String,String> ilhas=new HashMap<String,String>();
+
+    public Rota(HashMap<String, String> ilhas) {
+        this.ilhas = ilhas;
+    }
+
+    public void addRota(String Lpartida,String Destino){
+        this.ilhas.put(Lpartida,Destino);
     }
 }
