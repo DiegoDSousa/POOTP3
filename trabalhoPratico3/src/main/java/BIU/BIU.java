@@ -8,7 +8,7 @@ abstract public class BIU {
     private String dataValidade;
     private double saldo;
     private String chaveValicacao;
-    Titular portador=new Titular();
+    private Titular portador=new Titular();
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
@@ -59,7 +59,7 @@ abstract public class BIU {
         }
         return upperCaseFirst(nomere);
     }
-    public static String upperCaseFirst(String val) {
+    private static String upperCaseFirst(String val) {
         char[] arr = val.toCharArray();
         arr[0] = Character.toUpperCase(arr[0]);
         return new String(arr);

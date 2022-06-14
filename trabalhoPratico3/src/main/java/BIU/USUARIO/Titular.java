@@ -6,6 +6,7 @@ public class Titular {
     private String e_mail;
     private String telefone;
 
+
     public String getNome() {
         return nome;
     }
