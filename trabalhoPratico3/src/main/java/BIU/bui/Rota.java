@@ -1,10 +1,11 @@
-package BIU.bui;
+package BIU;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Rota {
-    private List ilhas=new ArrayList<>();
-    public void  addRota(){
+    private HashMap<String,String> ilhas=new HashMap<String,String>();
+    public void addRota(String partida,String destino){
+        ilhas.put(this.partida,this.destino);
     }
 }
