@@ -2,12 +2,16 @@ package BIU.VIAGEM;
 
 import javafx.scene.chart.PieChart;
 
+import java.time.LocalDate;
+
 public class Viagemilha extends Viagem {
     private String localPartida;
-    private PieChart.Data dataPartida;
+    private LocalDate dataPartida;
     private String localChegada;
-    private PieChart.Data dataChegada;
+    private LocalDate dataChegada;
 
     public void cancelarViagem(){};
+    public void setLocalPartida(String LocalPartida){this.localPartida=LocalPartida;}
+    public void setLocalChegada(String LocalChegada){this.localChegada=LocalChegada;}
 
 }

@@ -1,4 +1,4 @@
 package BIU.USUARIO;
 
-public class Lote {
+public class Lote{
 }

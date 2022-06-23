@@ -38,4 +38,8 @@ public class Titular {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+    public void ver(){
+        System.out.println(nome+" "+e_mail+" "+telefone+" "+morada);
+    }
 }

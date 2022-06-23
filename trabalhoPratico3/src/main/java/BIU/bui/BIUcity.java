@@ -1,4 +1,4 @@
-package BIU;
+package BIU.bui;
 
 import java.util.List;
 
@@ -9,10 +9,14 @@ public class BIUcity extends BIU implements TituloTransporte{
         super.setSaldo(valor);
     }
 
+    public BIUcity(String nome,String Email,String morada,String numero){
+        super.addTitular(nome,numero,Email,morada);
+    }
     @Override
     public double pagarViagem() {
         return 0;
     }
+
     public int getTotalViagens() {
         return totalViagens;
     }

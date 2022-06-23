@@ -1,4 +1,4 @@
-package BIU;
+package BIU.bui;
 
 import BIU.USUARIO.Titular;
 
@@ -15,6 +15,9 @@ abstract public class BIU {
     }
 
 
+    public void setCodigo(int codigo1){this.codigo=codigo1;}
+
+    public void setData(String Data){this.data=Data;}
 
     public static int getCodigo() {
         return codigo;
@@ -36,37 +39,47 @@ abstract public class BIU {
         return chaveValicacao;
     }
 
+    public void ver(){
+        portador.ver();
+    }
+
+    protected void addTitular(String nome,String numero,String Email,String morada){
+        this.portador.setNome(nome);
+        this.portador.setTelefone(numero);
+        this.portador.setE_mail(Email);
+        this.portador.setMorada(morada);
+    }
+
     public void setchaveValidacao(){
         String[] nome=portador.getNome().split(" ");
         String Nome=nome[0];
         String Apelido=nome[1];
         this.chaveValicacao=criarChaveConfirmacao(Nome,Apelido);
-
     }
+
     private String criarChaveConfirmacao(String primeiroNome, String segundoNome){
-        String chave=devider(primeiroNome)+devider(segundoNome)+this.data+this.codigo;
+        String chave=codificador(primeiroNome)+codificador(segundoNome)+this.data+ this.codigo;
         return chave;
     }
-    private String devider(String conteudo){
-        String nomere=" ";
+
+    private String codificador(String conteudo){
+        String codificado=" ";
         char[] intermediario = new char[5];
 
         if (conteudo.length() <= 5) {
-            nomere=conteudo;
+            codificado=conteudo;
         } else {
             conteudo.getChars((conteudo.length()-5), conteudo.length(), intermediario, 0);
-            nomere = new StringBuilder(String.valueOf(intermediario)).reverse().toString();
+            codificado = new StringBuilder(String.valueOf(intermediario)).reverse().toString();
         }
-        return upperCaseFirst(nomere);
+        return upperCaseFirst(codificado);
     }
+
     private static String upperCaseFirst(String val) {
         char[] arr = val.toCharArray();
         arr[0] = Character.toUpperCase(arr[0]);
         return new String(arr);
     }
-
-
-
 
 
 }
