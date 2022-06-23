@@ -1,7 +1,7 @@
 package BIU.USUARIO;
 
 public enum CategoriaOperador {
-    Terrestre,
-    Maritimo,
-    Aereo
+    Terrestre(1),
+    Maritimo(2),
+    Aereo(3)
 }
