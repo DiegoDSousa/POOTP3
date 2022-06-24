@@ -51,5 +51,6 @@
             <Font size="36.0" />
          </font>
       </Label>
+      <Button fx:id="cadastrar" layoutX="83.0" layoutY="348.0" mnemonicParsing="false" onAction="#cadastrar" style="-fx-background-color: #6569EA;" text="Crie uma nova conta" textFill="WHITE" />
    </children>
 </Pane>

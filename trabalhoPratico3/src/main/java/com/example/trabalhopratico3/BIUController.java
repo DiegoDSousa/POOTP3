@@ -26,6 +26,7 @@ public class BIUController {
         stage=(Stage)((Node)event.getSource()).getScene().getWindow();
         scene=new Scene(root);
         stage.setScene(scene);
+        stage.setTitle("LOGIN");
         stage.show();
     }
     @FXML
@@ -34,6 +35,7 @@ public class BIUController {
         stage=(Stage)((Node)event.getSource()).getScene().getWindow();
         scene=new Scene(root);
         stage.setScene(scene);
+        stage.setTitle("CADASTRO");
         stage.show();
     }
 

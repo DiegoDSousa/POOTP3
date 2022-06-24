@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6569EA;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhopratico3.CadastrarControler">
    <children>
@@ -76,5 +77,11 @@
             </GridPane>
          </children>
       </Pane>
+      <Label layoutX="418.0" layoutY="14.0" prefHeight="91.0" prefWidth="160.0" text="Cadastra-se" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="447.0" layoutY="296.0" text="posui conta:" textFill="#f8f6f6" />
+      <Button layoutX="458.0" layoutY="328.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #6569EA;" text="login" textFill="#fffdfd" />
    </children>
 </AnchorPane>
