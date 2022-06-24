@@ -23,7 +23,7 @@ public class LoginController {
     private PasswordField password;
 
     @FXML
-    public void login() throws IOException {
+    public void login(ActionEvent event) throws IOException {
         String conteudo = "";
         BufferedReader arquivo =new BufferedReader(new FileReader("src/main/java/com/example/trabalhopratico3/dados/"+toString(this.username.getText())+".txt"));
         conteudo= arquivo.readLine();
@@ -31,6 +31,12 @@ public class LoginController {
         System.out.println(this.password.getText());
         if((conteudo.split("-")[1]).equals(this.password.getText())){
             System.out.println("Login efetuado com sucesso");
+            Parent root= FXMLLoader.load(getClass().getResource("main-view.fxml"));
+            stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+            scene=new Scene(root);
+            stage.setScene(scene);
+            stage.setTitle("Main");
+            stage.show();
         }else{
             System.out.println("password incorreta");
         }
