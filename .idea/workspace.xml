@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7e037610-6319-4326-b2f5-b7fbf9badf07" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/CategoriaOperador.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/CategoriaOperador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Lote.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Lote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/TVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/TVenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Tcompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Tcompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Transaccoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/USUARIO/Transaccoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/VIAGEM/Viagemilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/VIAGEM/Viagemilha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/VIAGEM/Viagemlocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabalhoPratico3/src/main/java/BIU/VIAGEM/Viagemlocal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -26,7 +35,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RunManager">

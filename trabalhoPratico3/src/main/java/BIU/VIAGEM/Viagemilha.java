@@ -10,7 +10,10 @@ public class Viagemilha extends Viagem {
     private String localChegada;
     private LocalDate dataChegada;
 
-    public void cancelarViagem(){};
+    public void cancelarViagem(){
+        super.setEstado(){}
+
+    };
     public void setLocalPartida(String LocalPartida){this.localPartida=LocalPartida;}
     public void setLocalChegada(String LocalChegada){this.localChegada=LocalChegada;}
 
