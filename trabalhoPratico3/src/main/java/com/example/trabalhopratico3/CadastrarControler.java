@@ -77,9 +77,9 @@ public class CadastrarControler {
 
     }
     private int getcodigo() throws IOException {
-        BufferedReader arquivo =new BufferedReader(new FileReader("src/main/java/BIU/Resources/codigos"));
+        BufferedReader arquivo =new BufferedReader(new FileReader("src/main/java/BIU/Resources/usuarios/codigos"));
         int codigo= Integer.parseInt(arquivo.readLine());
-        FileWriter ficheiro=new FileWriter("src/main/java/BIU/Resources/codigos");
+        FileWriter ficheiro=new FileWriter("src/main/java/BIU/Resources/usuarios/codigos");
         PrintWriter guardar=new PrintWriter(ficheiro);
         guardar.print(codigo+1);
         guardar.close();

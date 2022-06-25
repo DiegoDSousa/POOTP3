@@ -1,6 +1,6 @@
 package BIU.USUARIO;
 
-public class Titular {
+public class Titular implements Parceiro {
     private String nome;
     private String morada;
     private String e_mail;
@@ -41,5 +41,25 @@ public class Titular {
 
     public void ver(){
         System.out.println(nome+" "+e_mail+" "+telefone+" "+morada);
+    }
+
+    @Override
+    public Transaccoes getTransacao() {
+        return getTransacao();
+    }
+
+    @Override
+    public void promover(Estatuto novoestatudo) {
+
+    }
+
+    @Override
+    public int calcularpontos() {
+        return 0;
+    }
+
+    @Override
+    public Estatuto despromover(Estatuto novoestatudo) {
+        return null;
     }
 }
