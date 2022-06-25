@@ -4,4 +4,6 @@ public enum CategoriaOperador {
     Terrestre,
     Maritimo,
     Aereo
+
+
 }
