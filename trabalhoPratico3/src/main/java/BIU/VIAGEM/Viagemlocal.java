@@ -6,6 +6,6 @@ public class Viagemlocal extends Viagem {
 
     public void setPreco(double preco) {this.preco = preco;}
     public double getPreco(){return this.preco;}
-
+    
 
 }
