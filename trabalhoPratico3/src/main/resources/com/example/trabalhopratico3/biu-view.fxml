@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6569EA;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhopratico3.BIUController">
+    <children>
+        <Button fx:id="login" layoutX="142.0" layoutY="236.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="109.0" text="login" textFill="#6569ea">
+         <font>
+            <Font name="Inter Regular" size="13.0" />
+         </font></Button>
+        <Button fx:id="cadastrar" layoutX="326.0" layoutY="236.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="26.0" prefWidth="109.0" text="cadastrar" textFill="#6569ea" />
+      <ImageView fitHeight="158.0" fitWidth="250.0" layoutX="190.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6569EA;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhopratico3.MainController">
+   <children>
+      <Pane layoutX="7.0" layoutY="7.0" prefHeight="134.0" prefWidth="356.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 50;">
+         <children>
+            <Label layoutX="37.0" layoutY="14.0" prefHeight="27.0" prefWidth="141.0" text="user" />
+            <Label layoutX="37.0" layoutY="59.0" prefHeight="17.0" prefWidth="117.0" text="status" />
+         </children>
+      </Pane>
+      <Pane layoutX="8.0" layoutY="159.0" prefHeight="237.0" prefWidth="356.0" style="-fx-background-color: #FFFFFF;" />
+      <Pane layoutX="374.0" layoutY="6.0" prefHeight="390.0" prefWidth="219.0" style="-fx-background-color: #FFFFFF;" />
+   </children>
+</AnchorPane>
